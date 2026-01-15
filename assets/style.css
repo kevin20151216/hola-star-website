@@ -538,3 +538,19 @@ img{ max-width: 100%; height: auto; }
 @media (max-width: 768px){
   .banner{ height: 220px; }
 }
+
+
+/* Contact page: single card centered (Email only) */
+.contact-grid.single{
+  grid-template-columns: minmax(0, 1fr);
+  justify-items: center;
+}
+.contact-grid.single .contact-item{
+  width: 100%;
+  max-width: 520px;
+  text-align: center;
+}
+.contact-grid.single .contact-item a{
+  font-size: 20px;
+  font-weight: 600;
+}
