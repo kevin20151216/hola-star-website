@@ -1,6 +1,10 @@
 --Admob--
 google.com, pub-4326343356713999, DIRECT, f08c47fec0942fa0
 
+--Facebook--
+facebook.com, 1600734057933251, DIRECT, c3e20eee3f780d68
+facebook.com, 1600734057933251, RESELLER, c3e20eee3f780d68
+
 --Max--
 applovin.com, b43df8f69a8846ec0642dbf104548879, DIRECT
 adyoulike.com, 2d578cf695c89ec2ba707280319d2020, RESELLER
