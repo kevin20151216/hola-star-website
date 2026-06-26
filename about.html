@@ -1,5 +1,5 @@
 
-<!doctype html><html><head><meta name="viewport" content="width=device-width, initial-scale=1">
+<!doctype html><html lang="en"><head><meta name="viewport" content="width=device-width, initial-scale=1">
 <meta charset="utf-8">
 <title>About us</title>
 
@@ -9,6 +9,8 @@
 <link rel="apple-touch-icon" sizes="180x180" href="assets/img/apple-touch-icon.png">
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#0b1220">
+<link rel="preload" as="image" href="assets/img/banner-about-1600.webp" media="(min-width: 561px)" type="image/webp">
+<link rel="preload" as="image" href="assets/img/banner-about-960.webp" media="(max-width: 560px)" type="image/webp">
 <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
@@ -18,7 +20,7 @@
 <header class="site-header">
   <div class="header-inner">
     <a class="brand" href="index.html" aria-label="Hola Star Home">
-      <img src="assets/img/logo-holastar.png" alt="Hola Star">
+      <img src="assets/img/logo-holastar.png" width="108" height="64" alt="Hola Star">
     </a>
 
     <nav class="site-nav" id="siteNav" aria-label="Primary">
@@ -36,15 +38,22 @@
 </header>
 
 
-<div class="banner about"></div>
-<div class="container">
-  <p>Founded in 2025, we are a development team focused on overseas utility applications and lightweight casual games.We work with a small, highly efficient team to quickly turn ideas into launch-ready, monetizable products.
+<div class="banner about">
+  <div class="banner-copy">
+    <p>About</p>
+    <h1>About Hola Star</h1>
+  </div>
+</div>
+<div class="container about-layout">
+  <div class="about-intro">
+    <p>Founded in 2025, we are a development team focused on overseas utility applications and lightweight casual games.We work with a small, highly efficient team to quickly turn ideas into launch-ready, monetizable products.
 Rather than pursuing complex architectures, we value stability, clarity, and long-term iterative product capabilities.</p>
+  </div>
   
   <div class="section-title"><h2>Culture</h2></div>
   <div class="culture-grid">
     <div class="culture-card">
-      <img src="assets/img/culture-responsibility.jpg" alt="Simplicity">
+      <img src="assets/img/culture-responsibility.jpg" width="587" height="214" loading="lazy" decoding="async" alt="Simplicity">
       <div class="culture-body">
         <h3>Simplicity</h3>
         <p>We focus on what truly matters and create value through simplicity and efficiency.</p>
@@ -52,7 +61,7 @@ Rather than pursuing complex architectures, we value stability, clarity, and lon
     </div>
 
     <div class="culture-card">
-      <img src="assets/img/culture-trust.jpg" alt="Responsibility">
+      <img src="assets/img/culture-trust.jpg" width="587" height="214" loading="lazy" decoding="async" alt="Responsibility">
       <div class="culture-body">
         <h3>Responsibility</h3>
         <p>We take responsibility for our products, our users, and each other.</p>
@@ -60,7 +69,7 @@ Rather than pursuing complex architectures, we value stability, clarity, and lon
     </div>
 
     <div class="culture-card">
-      <img src="assets/img/culture-joy.jpg" alt="Growth">
+      <img src="assets/img/culture-joy.jpg" width="587" height="214" loading="lazy" decoding="async" alt="Growth">
       <div class="culture-body">
         <h3>Growth</h3>
         <p>We grow by learning continuously and embracing new challenges.</p>
@@ -68,7 +77,7 @@ Rather than pursuing complex architectures, we value stability, clarity, and lon
     </div>
 
     <div class="culture-card">
-      <img src="assets/img/culture-growth.jpg" alt="Win-Win">
+      <img src="assets/img/culture-growth.jpg" width="587" height="214" loading="lazy" decoding="async" alt="Win-Win">
       <div class="culture-body">
         <h3>Win-Win</h3>
         <p>We work closely with our partners to achieve long-term, sustainable success together.</p>
@@ -160,11 +169,12 @@ Rather than pursuing complex architectures, we value stability, clarity, and lon
   <div class="footer">
   <div class="inner">
     <div>
-      <a href="privacy.html" target="_blank" rel="noopener noreferrer" id="privacyLink" target="_blank" rel="noopener noreferrer">Privacy Policy</a> |
-      <a href="terms.html" target="_blank" rel="noopener noreferrer" id="termsLink" target="_blank" rel="noopener noreferrer">Terms of Use</a>
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer" id="privacyLink">Privacy Policy</a> |
+      <a href="terms.html" target="_blank" rel="noopener noreferrer" id="termsLink">Terms of Use</a>
     </div>
     <div style="margin-top:10px">Copyright © 2026 Hola Star</div>
   </div>
+</div>
 </div>
 <script src="assets/main.js"></script>
 </body></html>

@@ -11,6 +11,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#0b1220">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
 
 <style>
 /* ===== Standard Overseas Legal Page ===== */
@@ -78,9 +79,27 @@ body{
 </style>
 </head>
 <body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Hola Star Home">
+      <img src="assets/img/logo-holastar.png" width="108" height="64" alt="Hola Star">
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="jobs.html" class="">Careers</a>
+        <a href="contact.html" class="">Contact</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-controls="siteNav" aria-expanded="false" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    </button>
+  </div>
+</header>
 <main class="legal-page">
 
-<main>
 <h1><strong>Privacy Policy</strong></h1>
 <h4>Effective Date: January 6, 2026</h4>
 <p>Please read this Privacy Policy carefully to understand our policies and practices regarding your personal data and how we process it. This Privacy Policy applies to Holastar’s games, applications, websites and related services (each category is collectively referred to as the “Service” or “Game”, “Application”, “Website”).</p>
@@ -251,8 +270,15 @@ body{
 <p><h2>Data Deletion Request</h2></p>
 <p>We respect your privacy and provide the option for users to delete their data. If you wish to request the deletion of your data, please contact <a href="mailto:[contact@holastar.cc].">contact@holastar.cc</a>.</p>
 </main>
-
-</main>
+<div class="footer">
+  <div class="inner">
+    <div>
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer" id="privacyLink">Privacy Policy</a> |
+      <a href="terms.html" target="_blank" rel="noopener noreferrer" id="termsLink">Terms of Use</a>
+    </div>
+    <div style="margin-top:10px">Copyright © 2026 Hola Star</div>
+  </div>
+</div>
 <script src="assets/main.js"></script>
 </body>
 </html>

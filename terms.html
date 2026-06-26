@@ -11,6 +11,7 @@
 <link rel="manifest" href="site.webmanifest">
 <meta name="theme-color" content="#0b1220">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/style.css">
 
 <style>
 /* ===== Standard Overseas Legal Page ===== */
@@ -78,9 +79,27 @@ body{
 </style>
 </head>
 <body>
+<header class="site-header">
+  <div class="header-inner">
+    <a class="brand" href="index.html" aria-label="Hola Star Home">
+      <img src="assets/img/logo-holastar.png" width="108" height="64" alt="Hola Star">
+    </a>
+
+    <nav class="site-nav" id="siteNav" aria-label="Primary">
+        <a href="index.html" class="">Home</a>
+        <a href="about.html" class="">About</a>
+        <a href="jobs.html" class="">Careers</a>
+        <a href="contact.html" class="">Contact</a>
+    </nav>
+    <button class="nav-toggle" type="button" aria-controls="siteNav" aria-expanded="false" aria-label="Open menu">
+      <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+      <path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+    </svg>
+    </button>
+  </div>
+</header>
 <main class="legal-page">
 
-<main>
 <h1><strong><strong><strong>Terms of Use</strong></strong></strong></h1>
 <h4>Effective Date: January 6, 2026</h4>
 <p>These Terms of Service (&quot; Terms &quot;or&quot; Agreement &quot;) govern your use of our Website and services. Please read them carefully. Please note in particular that the applications provided on our website and services are for entertainment only. Please read these Terms carefully before using our services. By using our Services, you agree to these Terms.</p>
@@ -98,8 +117,15 @@ body{
 <h2>Force Majeure</h2>
 <p>Holastar shall not be liable for any delay or inability to perform due to causes beyond its reasonable control, Including due to unforeseen circumstances or beyond Holastar Failure to perform this Agreement due to causes within the scope of control (such as acts of God, war, terrorism, riots, trade bans, actions of civil or military authorities, changes in laws, fires, floods, accidents, network or other infrastructure failures, lockouts or strikes).</p>
 </main>
-
-</main>
+<div class="footer">
+  <div class="inner">
+    <div>
+      <a href="privacy.html" target="_blank" rel="noopener noreferrer" id="privacyLink">Privacy Policy</a> |
+      <a href="terms.html" target="_blank" rel="noopener noreferrer" id="termsLink">Terms of Use</a>
+    </div>
+    <div style="margin-top:10px">Copyright © 2026 Hola Star</div>
+  </div>
+</div>
 <script src="assets/main.js"></script>
 </body>
 </html>
